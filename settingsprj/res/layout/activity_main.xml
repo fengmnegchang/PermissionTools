@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/floatbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开悬浮框" />
+
+        <Button
+            android:id="@+id/autostartbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置信任列表/开机自启动" />
+
+        <Button
+            android:id="@+id/startservicebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开机自启服务" />
+
+        <Button
+            android:id="@+id/screenbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭系统自带锁屏" />
+
+        <Button
+            android:id="@+id/permissionsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="有权限查看使用情况的程序" />
+
+        <Button
+            android:id="@+id/toastbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="允许通知" />
+
+        <Button
+            android:id="@+id/allpermissionlistbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="所有权限列表" />
+
+        <Button
+            android:id="@+id/notifactionbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="通知使用权" />
+
+        <Button
+            android:id="@+id/settingsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置权限" />
+
+        <Button
+            android:id="@+id/xiaomibtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="小米系统设置" />
+        
+        <Button
+            android:id="@+id/huaweibtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="华为手机管家" />
+        
+        <Button
+            android:id="@+id/startappbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="启动APP" />
+
+        <Button
+            android:id="@+id/broadbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送广播 延时10s" />
+
+        <Button
+            android:id="@+id/broadatbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送广播 循环5s" />
+        
+        <Button
+            android:id="@+id/voicebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="语音权限" />
+    </LinearLayout>
+
+</ScrollView>

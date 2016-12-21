@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/floatlayout"
+    android:background="@color/half_transparent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请滑动至底部，\n将【显示悬浮框】设置为允许"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:id="@+id/floattxt"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用适配</string>
+    <color name="half_transparent">#e0505048</color>
+
+</resources>
